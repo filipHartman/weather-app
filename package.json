@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Application to show weather forecast based on geolocation",
+  "private": true,
+  "scripts": {
+    "build": "npx webpack",
+    "start": "browser-sync dist -w"
+  },
+  "keywords": [
+    "JS",
+    "HTML",
+    "CSS",
+    "API",
+    "GEOLOCATION",
+    "MAP"
+  ],
+  "author": "Filip Hartman",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
