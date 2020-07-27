@@ -1,0 +1,17 @@
+body {
+  color: white;
+  background-color: #222222;
+}
+#map-container {
+  width: 400px;
+  height: 400px;
+}
+
+.background {
+  background: url('../assets/background.jpg');
+  background-size: cover;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+}

@@ -4,7 +4,7 @@
   "description": "Application to show weather forecast based on geolocation",
   "private": true,
   "scripts": {
-    "build": "npx webpack",
+    "build": "webpack --watch",
     "start": "browser-sync dist -w"
   },
   "keywords": [
@@ -19,12 +19,17 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "@stamp/it": "^1.1.0",
+    "@stamp/required": "^1.0.1",
+    "browser-sync": "^2.26.7",
+    "mapbox-gl": "^1.11.0",
+    "stampit": "^4.3.1"
   }
 }
