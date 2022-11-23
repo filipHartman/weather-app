@@ -25,6 +25,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
